@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+const nextConfig = {
   reactStrictMode: true,
   experimental: {
     serverActions: true,
   },
+  output: 'standalone', // Forces a non-Edge deployment
 };
+
+module.exports = nextConfig;
