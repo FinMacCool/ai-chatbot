@@ -1,8 +1,4 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "next.config.js", "use": "@vercel/next" }
-  ],
   "functions": {
     "api/*": {
       "runtime": "nodejs18.x"
